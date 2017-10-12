@@ -39,7 +39,7 @@ end
 def play(board)
   player_turns = 1
 while player_turns < 10
-  if turn(board) == true 
+  if turn(board) == true
   player_turns +=1
 	puts "X"
 end
